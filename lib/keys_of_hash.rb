@@ -3,7 +3,8 @@ class Hash
     key_array = []
     arguments.each do |match|
       self.each do |k, v|
-        if v
+        if v == match 
+          
     end
     return key_array
   end
