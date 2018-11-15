@@ -4,6 +4,6 @@ class Hash
     arguments.each do |hash|
       key_array << hash.keys 
     end
-    key_array
+    return key_array
   end
 end
